@@ -16,6 +16,7 @@ Make sure you have the following installed on your sistem:
 # Installation
 - Open this folder into **Android Studio** and run the application
 - Open **Visual Studio Code** and connect to the **WSL** then open the file **server. c**
+- Open **PGAdmin4**, create a new database and dump from the **Database** folder
 
 # Contributors
 - **Antonio Navarra**: navarra.antonio99@gmail.com
