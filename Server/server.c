@@ -33,6 +33,10 @@ void sendMessageToClient(char *message, int socket);
 
 int main(void)
 {
+    // Connessione al database
+    PGconn *connection = NULL;
+    connection = establishDBConnection(connection);
+
     int serverSocket, clientSocket;
     struct sockaddr_in serverAddress, clientAddress;
     socklen_t clientAddressLength = sizeof(struct sockaddr_in);
@@ -61,7 +65,7 @@ int main(void)
     listen(serverSocket, 3);
 
     printf("Server MovieHub online\n");
-    printf("Server in ascolto su porta %d...\n\n", PORT_NUMBER);
+    printf("Server listening on port %d...\n\n", PORT_NUMBER);
 
     // Accettazione delle connessioni e gestione dei thread
     while ((clientSocket = accept(serverSocket, (struct sockaddr *)&clientAddress, &clientAddressLength)))
@@ -72,11 +76,12 @@ int main(void)
         int *newSocket = malloc(sizeof(int));
         if (!newSocket)
         {
-            perror("Error allocating memory");
+            perror("Memory allocation error");
             exit(EXIT_FAILURE);
         }
         *newSocket = clientSocket;
 
+        // Passa la connessione al database alla funzione handleConnection
         if (pthread_create(&thread, NULL, handleConnection, (void *)newSocket) != 0)
         {
             perror("Error creating thread");
@@ -86,9 +91,12 @@ int main(void)
     }
     if (clientSocket < 0)
     {
-        perror("Connection with client failed\n");
+        perror("\n");
         exit(EXIT_FAILURE);
     }
+
+    // Chiudi la connessione al database quando il server viene arrestato
+    PQfinish(connection);
 
     return 0;
 }
@@ -235,15 +243,9 @@ void *handleConnection(void *socketDesc)
 
     // Gestione della disconnessione del client
     ssize_t recvResult = recv(clientSocket, message, sizeof(message), 0);
-    if (recvResult == 0)
+    if (recvResult == (ssize_t)-1)
     {
-        puts("Client disconnected\n\n");
-        fflush(stdout);
-        close(clientSocket);
-    }
-    else if (recvResult == (ssize_t)-1)
-    {
-        perror("recv failed");
+        perror("connection failed");
         close(clientSocket);
     }
 
