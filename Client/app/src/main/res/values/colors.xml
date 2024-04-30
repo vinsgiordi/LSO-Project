@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- colori -->
+    <color name="blue">#2B70A8</color>
+    <color name="black">#2D2D2A</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#9C9C9C</color>
+    <color name="red">#CE3536</color>
+
+    <!-- Filtro biancoNero color -->
+    <color name="biancoNero_colore1">#2D2D2A</color>
+    <color name="biancoNero_colore2">#000000</color>
+    <color name="biancoNero_colore3">#9C9C9C</color>
+    <color name="biancoNero_colore4">#FFFFFF</color>
+
+    <!-- Filtro verde -->
+    <color name="deuteranopia_color1">#2D2D2A</color>
+    <color name="deuteranopia_color2">#B8BF25</color>
+    <color name="deuteranopia_color3">#9C9C9C</color>
+
+    <!-- Filtro blu/giallo -->
+    <color name="tritanopia_color1">#000000</color>
+    <color name="tritanopia_color2">#2D2D2A</color>
+    <color name="tritanopia_color3">#CE3536</color>
+    <color name="tritanopia_color4">#9C9C9C</color>
 </resources>

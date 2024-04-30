@@ -1,5 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application -->
+    <style name="Theme.MovieHub" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
 
-    <style name="Theme.MovieHub" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.MovieHub.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="biancoNero">
+
+    </style>
+
+    <style name="Deuteranopia">
+
+    </style>
+
+    <style name="Tritanopia">
+
+    </style>
+
+    <style name="Theme.MovieHub.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MovieHub.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

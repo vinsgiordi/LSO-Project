@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="title_dimen">30sp</dimen>
+    <dimen name="label_dimen">18sp</dimen>
+    <dimen name="label_image_dimen">90dp</dimen>
+    <dimen name="cover_width_dimen">300px</dimen>
+    <dimen name="cover_height_dimen">450px</dimen>
+
+    <dimen name="label_large">30sp</dimen>
+    <dimen name="label_large2">22sp</dimen>
+    <dimen name="cover_width_large">500px</dimen>
+    <dimen name="cover_height_large">650px</dimen>
+    <dimen name="label_image_large">150dp</dimen>
+</resources>

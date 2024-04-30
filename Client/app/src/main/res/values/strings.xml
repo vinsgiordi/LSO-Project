@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MovieHub</string>
+    <string name="api_key">6ff4c2846a2910d753ff91a81eee4f6c</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mostra_btn"><u>Mostra tutto</u></string>
+    <string name="termini_condizioni"><![CDATA[Termini & Condizioni]]></string>
 </resources>
