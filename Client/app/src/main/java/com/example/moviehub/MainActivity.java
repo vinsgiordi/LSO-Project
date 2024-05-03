@@ -18,6 +18,11 @@ public class MainActivity extends AppCompatActivity {
     public static String tema = "Disattivata";
     private BottomNavigationView bottomNav;
 
+
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
