@@ -1,3 +1,6 @@
+
+![title](https://github.com/vinsgiordi/LSO-Project/assets/75014356/0818ff81-a12e-4947-98b8-95ade6676e86)
+
 # LSO-Project
 Design a client-server application for adaptive content viewing.
 
