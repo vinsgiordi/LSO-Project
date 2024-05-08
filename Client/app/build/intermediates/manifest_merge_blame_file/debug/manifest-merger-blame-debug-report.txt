@@ -1,0 +1,158 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.moviehub"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+11-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:5:5-72
+11-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:5:22-69
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:7:5-68
+13-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:7:22-65
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:8:5-67
+14-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:8:22-64
+15
+16    <!-- suppress DeprecatedClassUsageInspection -->
+17    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+17-->[androidx.biometric:biometric:1.1.0] C:\Users\ACER\.gradle\caches\transforms-3\667773d5e4c521bbb952a39f757df34b\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+17-->[androidx.biometric:biometric:1.1.0] C:\Users\ACER\.gradle\caches\transforms-3\667773d5e4c521bbb952a39f757df34b\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
+18
+19    <application
+19-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:10:5-56:19
+20        android:allowBackup="true"
+20-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:11:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.8.0] C:\Users\ACER\.gradle\caches\transforms-3\f8ca33f57cc610a0b1ed31d0cc4084bb\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:12:9-65
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:fullBackupContent="@xml/backup_rules"
+25-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:13:9-54
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:14:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:15:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:16:9-54
+29        android:supportsRtl="true"
+29-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:17:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.MovieHub" >
+31-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:18:9-46
+32        <activity
+32-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:20:9-26:20
+33            android:name="com.example.moviehub.View.ResultsActivity"
+33-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:21:13-49
+34            android:exported="false" >
+34-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:22:13-37
+35            <meta-data
+35-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:23:13-25:36
+36                android:name="android.app.lib_name"
+36-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:24:17-52
+37                android:value="" />
+37-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:25:17-33
+38        </activity>
+39        <activity
+39-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:27:9-33:20
+40            android:name="com.example.moviehub.View.MovieActivity"
+40-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:28:13-47
+41            android:exported="false" >
+41-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:29:13-37
+42            <meta-data
+42-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:23:13-25:36
+43                android:name="android.app.lib_name"
+43-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:24:17-52
+44                android:value="" />
+44-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:25:17-33
+45        </activity>
+46        <activity
+46-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:34:9-40:20
+47            android:name="com.example.moviehub.View.RegisterActivity"
+47-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:35:13-50
+48            android:exported="true" >
+48-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:36:13-36
+49            <meta-data
+49-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:23:13-25:36
+50                android:name="android.app.lib_name"
+50-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:24:17-52
+51                android:value="" />
+51-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:25:17-33
+52        </activity>
+53        <activity
+53-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:41:9-55:20
+54            android:name="com.example.moviehub.MainActivity"
+54-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:42:13-41
+55            android:exported="true"
+55-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:43:13-36
+56            android:label="@string/app_name"
+56-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:44:13-45
+57            android:theme="@style/Theme.MovieHub.NoActionBar" >
+57-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:45:13-62
+58            <intent-filter>
+58-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:46:13-50:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:47:17-69
+59-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:47:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:49:17-77
+61-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:49:27-74
+62            </intent-filter>
+63
+64            <meta-data
+64-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:23:13-25:36
+65                android:name="android.app.lib_name"
+65-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:24:17-52
+66                android:value="" />
+66-->C:\Users\ACER\Desktop\Progetto_LSO\Client\app\src\main\AndroidManifest.xml:25:17-33
+67        </activity>
+68
+69        <provider
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ACER\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+70            android:name="androidx.startup.InitializationProvider"
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ACER\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+71            android:authorities="com.example.moviehub.androidx-startup"
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ACER\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+72            android:exported="false" >
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ACER\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+73            <meta-data
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ACER\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ACER\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+75                android:value="androidx.startup" />
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ACER\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+76            <meta-data
+76-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ACER\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+77                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+77-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ACER\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+78                android:value="androidx.startup" />
+78-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ACER\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+79        </provider>
+80
+81        <uses-library
+81-->[androidx.window:window:1.0.0] C:\Users\ACER\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+82            android:name="androidx.window.extensions"
+82-->[androidx.window:window:1.0.0] C:\Users\ACER\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+83            android:required="false" />
+83-->[androidx.window:window:1.0.0] C:\Users\ACER\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+84        <uses-library
+84-->[androidx.window:window:1.0.0] C:\Users\ACER\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+85            android:name="androidx.window.sidecar"
+85-->[androidx.window:window:1.0.0] C:\Users\ACER\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+86            android:required="false" />
+86-->[androidx.window:window:1.0.0] C:\Users\ACER\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+87    </application>
+88
+89</manifest>

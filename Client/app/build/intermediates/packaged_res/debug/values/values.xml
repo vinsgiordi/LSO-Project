@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="biancoNero_colore1">#2D2D2A</color>
+    <color name="biancoNero_colore2">#000000</color>
+    <color name="biancoNero_colore3">#9C9C9C</color>
+    <color name="biancoNero_colore4">#FFFFFF</color>
+    <color name="black">#2D2D2A</color>
+    <color name="blue">#2B70A8</color>
+    <color name="deuteranopia_color1">#2D2D2A</color>
+    <color name="deuteranopia_color2">#B8BF25</color>
+    <color name="deuteranopia_color3">#9C9C9C</color>
+    <color name="grey">#9C9C9C</color>
+    <color name="red">#CE3536</color>
+    <color name="tritanopia_color1">#000000</color>
+    <color name="tritanopia_color2">#2D2D2A</color>
+    <color name="tritanopia_color3">#CE3536</color>
+    <color name="tritanopia_color4">#9C9C9C</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="cover_height_dimen">450px</dimen>
+    <dimen name="cover_height_large">650px</dimen>
+    <dimen name="cover_width_dimen">300px</dimen>
+    <dimen name="cover_width_large">500px</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="label_dimen">18sp</dimen>
+    <dimen name="label_image_dimen">90dp</dimen>
+    <dimen name="label_image_large">150dp</dimen>
+    <dimen name="label_large">30sp</dimen>
+    <dimen name="label_large2">22sp</dimen>
+    <dimen name="title_dimen">30sp</dimen>
+    <string name="api_key">6ff4c2846a2910d753ff91a81eee4f6c</string>
+    <string name="app_name">MovieHub</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mostra_btn"><u>Mostra tutto</u></string>
+    <string name="termini_condizioni"><![CDATA[Termini & Condizioni]]></string>
+    <style name="Deuteranopia">
+
+    </style>
+    <style name="Theme.MovieHub" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Theme.MovieHub.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.MovieHub.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.MovieHub.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="Tritanopia">
+
+    </style>
+    <style name="biancoNero">
+
+    </style>
+</resources>

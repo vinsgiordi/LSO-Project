@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.example.moviehub.app-mergeDebugResources-42:/layout/fragment_homepage.xml",
+        "source": "com.example.moviehub.app-main-45:/layout/fragment_homepage.xml"
+    },
+    {
+        "merged": "com.example.moviehub.app-mergeDebugResources-42:/layout/activity_results.xml",
+        "source": "com.example.moviehub.app-main-45:/layout/activity_results.xml"
+    },
+    {
+        "merged": "com.example.moviehub.app-mergeDebugResources-42:/layout/activity_movie.xml",
+        "source": "com.example.moviehub.app-main-45:/layout/activity_movie.xml"
+    },
+    {
+        "merged": "com.example.moviehub.app-mergeDebugResources-42:/layout/popup_terms.xml",
+        "source": "com.example.moviehub.app-main-45:/layout/popup_terms.xml"
+    },
+    {
+        "merged": "com.example.moviehub.app-mergeDebugResources-42:/layout/activity_main.xml",
+        "source": "com.example.moviehub.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.moviehub.app-mergeDebugResources-42:/layout/result_layout.xml",
+        "source": "com.example.moviehub.app-main-45:/layout/result_layout.xml"
+    },
+    {
+        "merged": "com.example.moviehub.app-mergeDebugResources-42:/layout/activity_register.xml",
+        "source": "com.example.moviehub.app-main-45:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.moviehub.app-mergeDebugResources-42:/layout/fragment_search.xml",
+        "source": "com.example.moviehub.app-main-45:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.example.moviehub.app-mergeDebugResources-42:/layout/movie_layout.xml",
+        "source": "com.example.moviehub.app-main-45:/layout/movie_layout.xml"
+    },
+    {
+        "merged": "com.example.moviehub.app-mergeDebugResources-42:/layout/fragment_login.xml",
+        "source": "com.example.moviehub.app-main-45:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.example.moviehub.app-mergeDebugResources-42:/layout/fragment_account.xml",
+        "source": "com.example.moviehub.app-main-45:/layout/fragment_account.xml"
+    },
+    {
+        "merged": "com.example.moviehub.app-mergeDebugResources-42:/layout/spinner_layout.xml",
+        "source": "com.example.moviehub.app-main-45:/layout/spinner_layout.xml"
+    }
+]

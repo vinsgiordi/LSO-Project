@@ -1,0 +1,3 @@
+com.example.moviehub.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
