@@ -84,6 +84,9 @@
                 android:text="6.8"
                 android:textColor="@color/white"
                 android:textSize="26sp"
+                android:background="@drawable/rounded_container"
+                android:backgroundTint="@color/red"
+                android:padding="10dp"
                 app:layout_constraintBottom_toBottomOf="@+id/movieCover"
                 app:layout_constraintEnd_toEndOf="parent" />
 
