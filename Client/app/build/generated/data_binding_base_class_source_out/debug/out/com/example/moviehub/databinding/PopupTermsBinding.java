@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.moviehub.R;
@@ -24,6 +25,9 @@ public final class PopupTermsBinding implements ViewBinding {
   public final CardView CardView;
 
   @NonNull
+  public final ConstraintLayout constraintLayout2;
+
+  @NonNull
   public final TextView messageTerms;
 
   @NonNull
@@ -33,9 +37,11 @@ public final class PopupTermsBinding implements ViewBinding {
   public final TextView titleTerms;
 
   private PopupTermsBinding(@NonNull CardView rootView, @NonNull CardView CardView,
-      @NonNull TextView messageTerms, @NonNull Button ok, @NonNull TextView titleTerms) {
+      @NonNull ConstraintLayout constraintLayout2, @NonNull TextView messageTerms,
+      @NonNull Button ok, @NonNull TextView titleTerms) {
     this.rootView = rootView;
     this.CardView = CardView;
+    this.constraintLayout2 = constraintLayout2;
     this.messageTerms = messageTerms;
     this.ok = ok;
     this.titleTerms = titleTerms;
@@ -70,6 +76,12 @@ public final class PopupTermsBinding implements ViewBinding {
     missingId: {
       CardView CardView = (CardView) rootView;
 
+      id = R.id.constraintLayout2;
+      ConstraintLayout constraintLayout2 = ViewBindings.findChildViewById(rootView, id);
+      if (constraintLayout2 == null) {
+        break missingId;
+      }
+
       id = R.id.messageTerms;
       TextView messageTerms = ViewBindings.findChildViewById(rootView, id);
       if (messageTerms == null) {
@@ -88,7 +100,8 @@ public final class PopupTermsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new PopupTermsBinding((CardView) rootView, CardView, messageTerms, ok, titleTerms);
+      return new PopupTermsBinding((CardView) rootView, CardView, constraintLayout2, messageTerms,
+          ok, titleTerms);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

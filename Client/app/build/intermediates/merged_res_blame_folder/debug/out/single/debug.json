@@ -132,6 +132,10 @@
         "source": "com.example.moviehub.app-pngs-38:/drawable-xxhdpi/ic_account_rabbit.png"
     },
     {
+        "merged": "com.example.moviehub.app-merged_res-43:/drawable_gradient_blue_red.xml.flat",
+        "source": "com.example.moviehub.app-main-45:/drawable/gradient_blue_red.xml"
+    },
+    {
         "merged": "com.example.moviehub.app-merged_res-43:/drawable-xxhdpi_icon_black.png.flat",
         "source": "com.example.moviehub.app-pngs-38:/drawable-xxhdpi/icon_black.png"
     },
@@ -166,6 +170,10 @@
     {
         "merged": "com.example.moviehub.app-merged_res-43:/drawable-ldpi_icon.png.flat",
         "source": "com.example.moviehub.app-pngs-38:/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "com.example.moviehub.app-merged_res-43:/drawable_gradient_green.xml.flat",
+        "source": "com.example.moviehub.app-main-45:/drawable/gradient_green.xml"
     },
     {
         "merged": "com.example.moviehub.app-merged_res-43:/mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -398,6 +406,10 @@
     {
         "merged": "com.example.moviehub.app-merged_res-43:/drawable-xhdpi_icon.png.flat",
         "source": "com.example.moviehub.app-pngs-38:/drawable-xhdpi/icon.png"
+    },
+    {
+        "merged": "com.example.moviehub.app-merged_res-43:/drawable_gradient_red.xml.flat",
+        "source": "com.example.moviehub.app-main-45:/drawable/gradient_red.xml"
     },
     {
         "merged": "com.example.moviehub.app-merged_res-43:/drawable_ic_next.xml.flat",

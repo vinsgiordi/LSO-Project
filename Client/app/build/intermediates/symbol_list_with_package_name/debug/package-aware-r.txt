@@ -2636,6 +2636,9 @@ drawable design_snackbar_background
 drawable fingerprint_dialog_error
 drawable fingerprint_dialog_fp_icon
 drawable gradient
+drawable gradient_blue_red
+drawable gradient_green
+drawable gradient_red
 drawable ic_account
 drawable ic_account_bear
 drawable ic_account_dog
@@ -2876,6 +2879,7 @@ id compress
 id confirm_button
 id constraint
 id constraintLayout
+id constraintLayout2
 id container
 id content
 id contentPanel

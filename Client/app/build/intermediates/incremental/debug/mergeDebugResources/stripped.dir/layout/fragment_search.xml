@@ -30,7 +30,7 @@
         android:drawableStart="@drawable/ic_search"
         android:drawablePadding="10sp"
         android:drawableTint="@color/grey"
-        android:hint="Film o Serie?"
+        android:hint="Cerca serie e film"
         android:inputType="text"
         android:maxLines="1"
         android:paddingStart="20sp"
