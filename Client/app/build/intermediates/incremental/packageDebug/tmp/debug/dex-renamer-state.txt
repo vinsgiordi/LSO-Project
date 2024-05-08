@@ -1,4 +1,4 @@
-#Wed May 08 17:01:33 CEST 2024
+#Wed May 08 17:04:06 CEST 2024
 base.0=C\:\\Users\\ACER\\Desktop\\Progetto_LSO\\Client\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\ACER\\Desktop\\Progetto_LSO\\Client\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\ACER\\Desktop\\Progetto_LSO\\Client\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
