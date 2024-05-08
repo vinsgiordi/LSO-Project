@@ -132,6 +132,8 @@ public class MovieActivity extends AppCompatActivity {
         movieTrama.setTextColor(getResources().getColor(R.color.tritanopia_color2));
         movieDataRilascio.setTextColor(getResources().getColor(R.color.tritanopia_color3));
         data.setTextColor(getResources().getColor(R.color.tritanopia_color3));
+        movieValutazione.setBackground(getResources().getDrawable(R.drawable.gradient_red));
+
     }
 
     // Imposta il filtro per la deuteranopia
@@ -142,6 +144,7 @@ public class MovieActivity extends AppCompatActivity {
         movieTrama.setTextColor(getResources().getColor(R.color.deuteranopia_color1));
         movieDataRilascio.setTextColor(getResources().getColor(R.color.deuteranopia_color2));
         data.setTextColor(getResources().getColor(R.color.deuteranopia_color2));
+        movieValutazione.setBackground(getResources().getDrawable(R.drawable.gradient_green));
     }
 
     // Imposta il filtro per il bianco e nero
@@ -151,6 +154,7 @@ public class MovieActivity extends AppCompatActivity {
         movieTrama.setTextColor(getResources().getColor(R.color.biancoNero_colore1));
         movieDataRilascio.setTextColor(getResources().getColor(R.color.biancoNero_colore1));
         data.setTextColor(getResources().getColor(R.color.biancoNero_colore1));
+        movieValutazione.setBackgroundColor(getResources().getColor(R.color.biancoNero_colore3));
     }
 
     // Aumenta le dimensioni dei testi
@@ -158,6 +162,7 @@ public class MovieActivity extends AppCompatActivity {
         movieCover.clearColorFilter();
         movieTrama.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.label_large));
         movieDataRilascio.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.label_large));
+        data.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.label_large));
         movieValutazione.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.label_large));
     }
 
@@ -165,6 +170,8 @@ public class MovieActivity extends AppCompatActivity {
     private void setFiltroDefault() {
         movieTrama.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.label_dimen));
         movieDataRilascio.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.label_dimen));
+        movieValutazione.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.label_dimen));
+        data.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.label_dimen));
     }
 }
 

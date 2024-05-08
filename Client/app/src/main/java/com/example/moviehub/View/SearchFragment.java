@@ -117,6 +117,12 @@ public class SearchFragment extends Fragment {
     private void increaseSize() {
         cercaEditText.setTextSize(getResources().getDimension(R.dimen.label_large2));
         cercaBtn.setTextSize(getResources().getDimension(R.dimen.label_large2));
+        ViewGroup.LayoutParams paramsCercaBtn = cercaBtn.getLayoutParams();
+        paramsCercaBtn.height = 250;
+        cercaBtn.setLayoutParams(paramsCercaBtn);
+        ViewGroup.LayoutParams paramsCercaEditText = cercaEditText.getLayoutParams();
+        paramsCercaEditText.height = 250;
+        cercaEditText.setLayoutParams(paramsCercaEditText);
     }
 
     // Imposta il filtro predefinito
