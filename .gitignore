@@ -4,5 +4,8 @@
 .idea/
 .DS_Store
 .gradle/
-/build
+gradle/
 local.properties
+/Client/build/
+/Client/gradle/
+/Client/app/build/
