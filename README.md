@@ -18,7 +18,7 @@ The catalog of movies and TV series is provided by The Movie DB, a reliable and 
 
 # Prerequisites
 Make sure you have the following installed on your system:
-- Android Studio (recommended version: Iguana | 2023.2.1);
+- Android Studio (recommended version: Iguana | 2023.2.1 or later);
 - Android SDK (version 34);
 - JDK (Java Development Kit);
 - WSL (recommended Ubuntu 22.04);
