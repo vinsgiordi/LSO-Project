@@ -19,11 +19,11 @@ The catalog of movies and TV series is provided by The Movie DB, a reliable and 
 # Prerequisites
 Make sure you have the following installed on your system:
 - Android Studio (recommended version: Iguana | 2023.2.1 or later);
-- Android SDK (version 34);
-- JDK (Java Development Kit);
-- WSL (recommended Ubuntu 22.04);
-- Visual Studio Code;
-- PostgreSQL (version 16);
+- Android SDK (version 34 or later);
+- JDK (Java Development Kit last version or later);
+- WSL (recommended Ubuntu 22.04 or later);
+- Visual Studio Code (last version or later;
+- PostgreSQL (version 16 or later);
 
 # Installation
 1. Clone the repository:
